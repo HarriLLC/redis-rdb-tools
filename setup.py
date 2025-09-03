@@ -35,7 +35,7 @@ sdict = {
         'rdbtools': ['templates/*'],
     },
     'test_suite' : 'tests.all_tests',
-    'install_requires': ['redis'],
+    'install_requires': ['redis', 'setuptools'],
     'entry_points' : {
         'console_scripts' : [
             'rdb = rdbtools.cli.rdb:main',
